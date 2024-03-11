@@ -1,0 +1,9 @@
+*.tfstate
+*.terraform
+terraform.*
+
+# Ignore .terraform.lock.hcl files
+.terraform.lock.hcl
+
+# Ignore provider plugin binaries
+.terraform/
